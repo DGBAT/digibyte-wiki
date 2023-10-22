@@ -1,16 +1,15 @@
 ---
-title: Run a full node
-description: 
+title: Run a open full node
+description: Runnning a full node is an easy way to contribute to DigiByte and help maintain the consensus on the Blockchain.
 published: true
-date: 2022-11-01T11:05:26.274Z
+date: 2023-10-22T08:36:51.458Z
 tags: 
 editor: markdown
-dateCreated: 2022-10-31T18:20:17.719Z
+dateCreated: 2023-10-22T08:36:51.458Z
 ---
 
-# Run a open full node
 
-### Running a full node is an easy way to contribute to DigiByte and help maintain the consensus on the Blockchain.
+# Run a open full node
 
 The software DigiByte Core is open-sourced under MIT License, and is the foundation framework of your blockchain application.
 
