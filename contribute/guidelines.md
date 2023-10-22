@@ -2,7 +2,7 @@
 title: Contribution Guidelines
 description: Guide to contribute to the DigiByte Wiki
 published: true
-date: 2023-10-22T11:08:44.289Z
+date: 2023-10-22T11:38:22.657Z
 tags: 
 editor: markdown
 dateCreated: 2023-10-22T09:24:43.645Z
@@ -14,7 +14,7 @@ Thank you for considering contributing to the DigiByte Blockchain Community Wiki
 
 ## Where to Contribute
 
-We accept contributions exclusively through GitHub, using Pull Requests (PRs) made to the `Development` branch of our repository. You can find our GitHub repository here: [DigiByte Wiki GitHub Repository](https://github.com/dgbat/digibyte-wiki).
+We accept contributions exclusively through GitHub, using Pull Requests (PRs) made to the `Develop` branch of our repository. You can find our GitHub repository here: [DigiByte Wiki GitHub Repository](https://github.com/dgbat/digibyte-wiki).
 
 ## Preferred Syntax for Contribution
 
@@ -45,7 +45,7 @@ If you wish to make suggestions or propose new content or changes to existing co
 
 2. Clone your forked repository to your local development environment.
 
-3. Create a new branch from the `Development` branch. Name it appropriately to describe your contribution.
+3. Create a new branch from the `Develop` branch. Name it appropriately to describe your contribution.
 
 4. Make your desired changes to the wiki content, ensuring they follow the preferred syntax (MD, HTML, or Plaintext).
 
@@ -53,7 +53,7 @@ If you wish to make suggestions or propose new content or changes to existing co
 
 6. Push your branch to your forked repository on GitHub.
 
-7. Create a Pull Request (PR) from your branch to the `Development` branch of the main repository. In the PR description, please provide a brief summary of your contribution.
+7. Create a Pull Request (PR) from your branch to the `Develop` branch of the main repository. In the PR description, please provide a brief summary of your contribution.
 
 8. Our maintainers will review your PR, provide feedback if needed, and merge it if it meets our contribution guidelines.
 
