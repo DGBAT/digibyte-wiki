@@ -2,7 +2,7 @@
 title: Terminology
 description: 
 published: true
-date: 2023-10-22T10:19:41.696Z
+date: 2023-10-22T10:20:55.378Z
 tags: 
 editor: markdown
 dateCreated: 2023-10-22T10:19:41.696Z
@@ -18,7 +18,7 @@ In this article we break it down for you, to help you get a grasp of some of the
 
 # Technology
 
-*WRITE SOME GOOD DESCRIPTION HERE..*
+General terminology relating to Blockchain technology.
 
 ## Blockchain
 
@@ -174,7 +174,7 @@ TO BE WRITTEN
 
 # Protocol Implementations
 
-*WRITE SOME GOOD DESCRIPTION HERE..*
+Terminology related to DigiByte Blockchain technology and implementations.
 
 ## **DigiShield**
 
