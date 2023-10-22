@@ -1,0 +1,147 @@
+<!--
+title: Technical Specifications
+description: 
+published: true
+date: 2023-10-22T10:17:40.250Z
+tags: 
+editor: code
+dateCreated: 2023-10-22T10:17:40.250Z
+-->
+
+
+<h3 class="toc-header" id="ledger"> Ledger</h3>
+<figure class="table">
+  <table>
+    <tbody>
+      <tr>
+        <th>Launch</th>
+        <td>January 10, 2014</td>
+      </tr>
+      <tr>
+        <th>Genesis block hash</th>
+        <td>“USA TODAY: 10/Jan/2014, Target: Data stolen from up to 110M customers”</td>
+      </tr>
+      <tr>
+        <th>Visibility</th>
+        <td>Public</td>
+      </tr>
+      <tr>
+        <th>Timestamping Scheme</th>
+        <td>Proof-of-Work</td>
+      </tr>
+      <tr>
+        <th>Model</th>
+        <td>UTXO (Unspent Transaction Output)</td>
+      </tr>
+      <tr>
+        <th>Algorithm Type</th>
+        <td>Multi</td>
+      </tr>
+      <tr>
+        <th>Issuance</th>
+        <td>Block mining reward</td>
+      </tr>
+      <tr>
+        <th>Emission</th>
+        <td>~1% reduction per month</td>
+      </tr>
+      <tr>
+        <th>Max Supply</th>
+        <td>21,000,000,000 (<strong>21 Billion DigiBytes</strong>)</td>
+      </tr>
+      <tr>
+        <th>Block Reward</th>
+        <td>Initially 72,000 per block (<strong>72 Thousand DigiBytes</strong>)</td>
+      </tr>
+      <tr>
+        <th>Expected Block Timing</th>
+        <td>15 seconds</td>
+      </tr>
+      <tr>
+        <th>Block Share</th>
+        <td>Equal share - <strong>20% per algorithm</strong></td>
+      </tr>
+      <tr>
+        <th>Max Block Size</th>
+        <td>
+          <p>1 MB</p>
+          <p><span style="font-family:Arial, Helvetica, sans-serif;">1000000 Bytes</span></p>
+        </td>
+      </tr>
+      <tr>
+        <th>Serialized Blocks</th>
+        <td>
+          <h6 class="toc-header" id="segwit-segregated-witness"> <strong>SegWit (Segregated Witness)</strong></h6>
+          <p>4 MB</p>
+          <p><span style="font-family:Arial, Helvetica, sans-serif;">4000000 Bytes</span></p>
+        </td>
+      </tr>
+      <tr>
+        <th>Difficulty Adjustment</th>
+        <td>Every 1 block</td>
+      </tr>
+      <tr>
+        <th>Difficulty Share</th>
+        <td>Separate</td>
+      </tr>
+      <tr>
+        <th>Address Format(s)</th>
+        <td>
+          <h6 class="toc-header" id="prefix-d"> <strong>Prefix “D"</strong></h6>
+          <p>Legacy</p>
+          <hr>
+          <h6 class="toc-header" id="prefix-3"> <strong>Prefix “3”</strong></h6>
+          <p>Multi-signature</p>
+          <hr>
+          <h6 class="toc-header" id="prefix-dgb1"> <strong>Prefix “dgb1”</strong></h6>
+          <p>SegWit Bech32</p>
+          <hr>
+          <h6 class="toc-header" id="prefix-s"> <strong>Prefix “S”</strong></h6>
+          <p>Segwit Multi-signature</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</figure>
+<h3 class="toc-header" id="denominations"> Denominations</h3>
+<figure class="table">
+  <table>
+    <tbody>
+      <tr>
+        <th>Plural</th>
+        <td>DigiBytes</td>
+      </tr>
+      <tr>
+        <th>Ticker Symbol</th>
+        <td>DGB</td>
+      </tr>
+      <tr>
+        <th>Currency Symbol</th>
+        <td>Ɗ (Unicode: <a class="is-external-link" href="https://unicode-table.com/en/018A/">U+018A</a>)</td>
+      </tr>
+      <tr>
+        <th>Precision</th>
+        <td>10⁻⁸</td>
+      </tr>
+    </tbody>
+  </table>
+</figure>
+<h3 class="toc-header" id="subunits"> Subunits</h3>
+<figure class="table">
+  <table>
+    <tbody>
+      <tr>
+        <th>mDGB (miliDigiByte)</th>
+        <td>1/1000</td>
+      </tr>
+      <tr>
+        <th>µDGB (microDigibyte)</th>
+        <td>1/1000000</td>
+      </tr>
+      <tr>
+        <th>ɗSats (digiSatoshi, Digis)</th>
+        <td>1/100000000</td>
+      </tr>
+    </tbody>
+  </table>
+</figure>
