@@ -2,7 +2,7 @@
 title: Contribution Guidelines
 description: Guide to contribute to the DigiByte Wiki
 published: true
-date: 2023-10-22T10:59:30.447Z
+date: 2023-10-22T11:08:44.289Z
 tags: 
 editor: markdown
 dateCreated: 2023-10-22T09:24:43.645Z
@@ -121,9 +121,9 @@ git push origin feature/descriptive-branch-name
 
 To maintain consistency and clarity in branch names, we recommend using the following naming convention:
 
-* Feature Branch: Prefix with "feature/" and provide a descriptive name. Example: feature/update-markdown-guide.
+* Feature Branch: Prefix with "feature/" and provide a descriptive name. Example: `feature/update-markdown-guide`.
 
-* Fix Branch: Prefix with "fix/" and provide a descriptive name. Example: fix/typo-in-article.
+* Fix Branch: Prefix with "fix/" and provide a descriptive name. Example: `fix/typo-in-article`.
 
 This naming convention helps quickly identify the purpose of each branch and is widely used in collaborative software development.
 
