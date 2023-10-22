@@ -2,7 +2,7 @@
 title: Run a open full node
 description: Runnning a full node is an easy way to contribute to DigiByte and help maintain the consensus on the Blockchain.
 published: true
-date: 2023-10-22T08:36:51.458Z
+date: 2023-10-22T11:32:22.734Z
 tags: 
 editor: markdown
 dateCreated: 2023-10-22T08:36:51.458Z
@@ -288,8 +288,6 @@ You can do this in a variety of ways, but throughout this guide we will be using
 
 
 1. Download and open the Balena Etcher software.
-
-![balenaetcher-step1.png](/balenaetcher-step1.png)
 
 2. Click on **Flash from file** and select your disk image.
 
