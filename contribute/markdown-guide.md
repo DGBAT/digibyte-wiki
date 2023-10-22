@@ -2,7 +2,7 @@
 title: Markdown User Guide
 description: 
 published: true
-date: 2023-10-22T09:21:48.118Z
+date: 2023-10-22T09:22:44.192Z
 tags: 
 editor: markdown
 dateCreated: 2023-10-22T09:21:48.118Z
@@ -634,6 +634,7 @@ and:
 
 > Note that these stylings are specific to Wiki.js and will fallback to standard list styling in other applications.
 {.is-warning}
+
 
 ---
 [Source](https://docs.requarks.io/editors/markdown)
