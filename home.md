@@ -2,30 +2,69 @@
 title: Home
 description: 
 published: true
-date: 2023-10-21T16:19:31.483Z
+date: 2023-10-22T10:29:51.174Z
 tags: 
 editor: markdown
 dateCreated: 2023-10-21T16:11:24.368Z
 ---
 
-# Introduction
+# DigiByte Blockchain
 
-DigiByte is a decentralized blockchain with a public ledger type, as well as the name of the native cryptocurrency.
+Welcome to the DigiByte Blockchain Community Wiki! This space is dedicated to providing in-depth and unbiased information about the DigiByte Blockchain project. We aim to offer a comprehensive overview of DigiByte's technical specifications, its history, and its place within the broader blockchain ecosystem.
 
-What makes DigiByte truly decentralized
+## What is DigiByte?
 
-Based on the Bitcoin code base, the DigiByte Blockchain was created in 2013 and was officially launched to the public in January 10, 2014.
+DigiByte is a decentralized blockchain platform designed to provide a secure, fast, and scalable environment for various use cases. Launched on January 10, 2014, with a genesis block that contained the message: "USA TODAY: 10/Jan/2014, Target: Data stolen from up to 110M customers," DigiByte has gained recognition for its commitment to decentralization and security.
 
-The code is open-sourced and released under MIT license, development is still ongoing.
+## Key Features
 
-Although both solid projects, DigiByte sets out to compliment what is considered as shortcomings with its predecessors, Bitcoin and Litecoin, with increased block speed, real-time difficulty adjustment and increased security. With a 1000:1 ratio compared to Bitcoin, the idea is that less devising of a full coin will result in less complications in terms of transactions for the end-user, meaning that overseeing and performing a transaction becomes less cumbersome and make for a more wholehearted user experience. This also means that it is more viable for a user to own at least one full DigiByte, rather than just fractions of one.
+### 1. Multi-Algo Consensus
 
-Because of these adjustments in the code, DigiByte is perfectly suitable for facilitating fast, secure and immutable transactions, containing both monetary value as well as other communication data.
+DigiByte employs a unique approach to consensus by implementing multiple mining algorithms. This enhances security and decentralization by reducing the risk of a 51% attack.
 
-**TO BE CONTINUED** ...
+### 2. DigiShield and MultiShield
+
+DigiShield and MultiShield are mechanisms developed to adjust the difficulty of mining, making it more responsive to network changes, and mitigating the impact of large mining operations.
+
+### 3. Segregated Witness (SegWit)
+
+DigiByte was one of the early adopters of Segregated Witness (SegWit) technology, which improves scalability and transaction security. Serialized blocks support a maximum size of 4 MB (4,000,000 bytes).
+
+### 4. UTXO Blockchain
+
+DigiByte uses a UTXO (Unspent Transaction Output) model for its blockchain, offering a solid foundation for secure and efficient transactions.
+
+### 5. Issuance and Emission
+
+DigiByte utilizes a block mining reward model, with an initial block reward of 72,000 DigiBytes, and an issuance that sees approximately a 1% reduction per month. The maximum supply of DigiBytes is capped at 21,000,000,000 (21 billion DigiBytes).
+
+## Community-Driven Development
+
+DigiByte has a vibrant and passionate community that actively contributes to its development. The project operates as an open-source endeavor, which encourages collaboration and transparency.
+
+## Use Cases
+
+DigiByte serves as a versatile blockchain, finding applications in various industries such as cybersecurity, secure data storage, decentralized applications (DApps), and more. The platform's speed and security make it a compelling choice for developers and businesses.
+
+## Technical Specifications
+
+- **Block Timing**: An expected block timing of 15 seconds.
+- **Block Share**: An equal share of 20% per algorithm.
+- **Max Block Size**: A maximum block size of 1 MB (1,000,000 bytes).
+- **Difficulty Adjustment**: Difficulty adjustment occurs every 1 block, with separate difficulty shares.
+- **Address Formats**: DigiByte supports multiple address formats, including "D" for legacy addresses, "3" for multi-signature addresses, and "dgb1" for SegWit Bech32 addresses.
+- **Denominations**: The plural form of the DigiByte cryptocurrency is "DigiBytes," with a ticker symbol of DGB and a currency symbol of Ɗ (Unicode: U+018A). The precision extends to 10⁻⁸, with subunits including mDGB (miliDigiByte, 1/1000), µDGB (microDigibyte, 1/1000000), and ɗSats (digiSatoshi, Digis, 1/100000000).
 
 ---
 
-This wiki is still a work in progress and this page is clearly unfinished.
+Join the Discussion
 
-Feel free to add to the content through [Github](https://github.com/dgbat/digibyte-wiki/), just make sure to create your Pull Requests to the `Development` repository.
+This Community Wiki is open to everyone interested in learning more about the DigiByte Blockchain. Whether you're a developer, enthusiast, or researcher, you'll find valuable insights and resources here. Feel free to explore the articles, guides, and discussions contributed by the community. If you have insights, technical knowledge, or questions, please contribute and join the discussion.
+
+Dive into the world of DigiByte and explore the technology that powers this innovative blockchain project.
+
+For official information and updates, visit the [DigiByte website](https://www.digibyte.org/).
+
+_**Note**: This Wiki is community-driven and not affiliated with the official DigiByte project. We aim to provide unbiased and informative content about the DigiByte Blockchain._
+
+Feel free to add to the content through [Github](https://github.com/dgbat/digibyte-wiki/).
