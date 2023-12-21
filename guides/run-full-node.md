@@ -260,9 +260,12 @@ In the service file you created, replace any occurrences of `/home/digibyte/digi
 
 When the time for upgrade comes, stop the `digibyted.service`, download and decompress the new release, delete and re-create the symbolic link pointing to the new DigiByte directory and start the `digibyted.service`.
 
-# Raspberry Pi 4
+# Raspberry Pi
 
-> It's always recommended to have active fan cooling on your Raspberry Pi 4.
+> You can also use [DigiNode Tools](https://diginode.tools/) to setup and manage a DigiByte Node on a Raspberry Pi.
+{.is-info}
+
+> A Raspberry Pi 4 or later is required. Raspberry Pi 3 and older are not supported. It's always recommended to have active fan cooling on the Raspberry Pi.
 {.is-info}
 
 
@@ -270,6 +273,7 @@ When the time for upgrade comes, stop the `digibyted.service`, download and deco
 
 | Requirements | Minimum | Recommended |
 | --- | --- | --- |
+| Hardware | Raspberry Pi 4 4Gb | Raspberry Pi 5 8Gb or better |
 | micro SD card | \>32 GB SD Card | 16 GB SD Card + 500 GB External Drive (HDD/SDD) |
 | Architecture | 64-Bit Linux/Windows/macOS |     |
 | Disk image | 64-bit system image | [Ubuntu Server](https://ubuntu.com/download/raspberry-pi) is recommended and will be used in this guide. |
