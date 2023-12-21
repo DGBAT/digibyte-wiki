@@ -277,29 +277,33 @@ When the time for upgrade comes, stop the `digibyted.service`, download and deco
 | micro SD card | \>32 GB SD Card | 16 GB SD Card + 500 GB External Drive (HDD/SDD) |
 | Architecture | 64-Bit Linux/Windows/macOS |     |
 | Disk image | 64-bit system image | [Ubuntu Server](https://ubuntu.com/download/raspberry-pi) is recommended and will be used in this guide. |
-| Software | [Balena Etcher.](https://www.balena.io/etcher/) |     |
+| Software | [Raspberry Pi Imager](https://www.raspberrypi.com/software/) |     |
 | Internet | Stable internet connection. | Unlimited bandwidth. |
 
-## Prepare the SD card
-
-It's time to flash the SD card with our 64-bit disk image.  
-You can do this in a variety of ways, but throughout this guide we will be using Balena Etcher to flash our SD card.
-
-**Balena Etcher**
-
-> Balena Etcher is a third-party software and is not provided by DigiByte or the contributors of this wiki.
+> Using a micoSD card is no longer required. You will get superior performance using an SSD. Simply flash the OS directly to the SSD and boot from that. On the Raspberry Pi 4 you can connect the SSD via one of the USB3 ports. On the Rasperry Pi 5 it is recommended to use an NVME SSD connected via the PCIe port. This requires an adaptor board such as the [Pineberry HatDrive!](https://pineberrypi.com/) or [NVME Base](https://shop.pimoroni.com/products/nvme-base?variant=41219587178579).
 {.is-info}
 
+## Prepare the microSD card / SSD
 
-1. Download and open the Balena Etcher software.
+It's time to flash the microSD card or SSD with our 64-bit disk image.  
+You can do this in a variety of ways, but throughout this guide we will be using Raspberry Pi imager to flash our SD card.
 
-2. Click on **Flash from file** and select your disk image.
+**Raspberry Pi Imager**
 
-3. Click on **Select target**, select your SD card, and then click on the **Flash!** button.
+> Raspberry Pi Imager is the official imager from the Rasperry Pi foundation.
+{.is-info}
 
-4. Wait for the writing to complete.
+1. Download and open the [Rapberry Pi imager software](https://www.raspberrypi.com/software/).
 
-> Your SD card is now ready.
+2. Click on **Choose Device** and select your Raspberry Pi model.
+
+3. Click on **Choose OS**, select your SD card, and then click on the **Flash!** button.
+
+4. Click on **Choose Storage**, select your microSD card or SSD, and then click Next.
+
+5. You can customize your install if you desire before proceeding to write the image.
+
+> Your microSD/SSD is now ready.
 {.is-success}
 
 
@@ -308,9 +312,9 @@ You can do this in a variety of ways, but throughout this guide we will be using
 > The following commands are line based, no GUI is required.
 {.is-info}
 
+Connect a keyboard, mouse & display to your RPi. Alternatively use SSH to connect to it remotely.
 
-Connect a keyboard, mouse & display to your RPi.  
-Insert the SD card and boot your device.
+Insert the microSD card or SSD and boot your device.
 
 ### Log in
 
