@@ -293,7 +293,7 @@ You can do this in a variety of ways, but throughout this guide we will be using
 > Raspberry Pi Imager is the official imager from the Rasperry Pi foundation.
 {.is-info}
 
-1. Download and open the [Rapberry Pi imager software](https://www.raspberrypi.com/software/).
+1. Download and open the [Raspberry Pi imager software](https://www.raspberrypi.com/software/).
 
 2. Click on **Choose Device** and select your Raspberry Pi model.
 
@@ -301,7 +301,9 @@ You can do this in a variety of ways, but throughout this guide we will be using
 
 4. Click on **Choose Storage**, select your microSD card or SSD, and then click Next.
 
-5. You can customize your install if you desire before proceeding to write the image.
+5. You can now customize your install to create a user and password, setup wifi and configure remote SSH access.
+
+6. Once you are done, proceed to write the image.
 
 > Your microSD/SSD is now ready.
 {.is-success}
@@ -312,9 +314,11 @@ You can do this in a variety of ways, but throughout this guide we will be using
 > The following commands are line based, no GUI is required.
 {.is-info}
 
-Connect a keyboard, mouse & display to your RPi. Alternatively use SSH to connect to it remotely.
+Connect a keyboard, mouse & display to your RPi, if using. (These are not required if using SSH to connect to it remotely.)
 
 Insert the microSD card or SSD and boot your device.
+
+If accessing it remotely, SSH into the device. (You may need to look up its IP address from your router).
 
 ### Log in
 
